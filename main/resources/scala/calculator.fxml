@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="374.0" minWidth="-Infinity" prefHeight="374.0" prefWidth="226.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <top>
+      <TextArea fx:id="textWindow" prefHeight="74.0" prefWidth="286.0" BorderPane.alignment="CENTER" />
+   </top>
+   <center>
+     <VBox prefHeight="298.0" prefWidth="235.0">
+        <children>
+         <HBox alignment="BOTTOM_CENTER" maxHeight="45.0" minHeight="44.0" prefHeight="44.0" prefWidth="232.0" spacing="20.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Button contentDisplay="RIGHT" mnemonicParsing="false" text="m+" />
+                  <Button contentDisplay="RIGHT" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" text="m-" />
+                  <Button contentDisplay="RIGHT" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" text="mc" />
+                  <Button contentDisplay="RIGHT" layoutX="128.0" layoutY="10.0" mnemonicParsing="false" text="mr" />
+               </children>
+            </HBox>
+         <HBox maxHeight="45.0" minHeight="45.0" prefHeight="45.0" prefWidth="286.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Button fx:id="one" minHeight="44.0" minWidth="57.0" mnemonicParsing="false" text="1" />
+                  <Button fx:id="two" layoutX="10.0" layoutY="10.0" minHeight="44.0" minWidth="57.0" mnemonicParsing="false" text="2" />
+                  <Button fx:id="three" layoutX="69.0" layoutY="10.0" minHeight="44.0" minWidth="57.0" mnemonicParsing="false" text="3" />
+                  <Button fx:id="divide" layoutX="128.0" layoutY="10.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="57.0" text="+" />
+               </children>
+            </HBox>
+         <HBox maxHeight="45.0" minHeight="45.0" prefHeight="45.0" prefWidth="207.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Button fx:id="four" minHeight="44.0" minWidth="57.0" mnemonicParsing="false" text="4" />
+                  <Button fx:id="five" layoutX="10.0" layoutY="10.0" minHeight="44.0" minWidth="57.0" mnemonicParsing="false" text="5" />
+                  <Button fx:id="six" layoutX="69.0" layoutY="10.0" minHeight="44.0" minWidth="57.0" mnemonicParsing="false" text="6" />
+                  <Button fx:id="multiply" layoutX="69.0" layoutY="10.0" minHeight="44.0" minWidth="57.0" mnemonicParsing="false" text="-" />
+               </children>
+            </HBox>
+         <HBox maxHeight="45.0" minHeight="45.0" prefHeight="45.0" prefWidth="286.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Button fx:id="seven" minHeight="44.0" minWidth="57.0" mnemonicParsing="false" text="7" />
+                  <Button fx:id="eight" layoutX="10.0" layoutY="10.0" minHeight="44.0" minWidth="57.0" mnemonicParsing="false" text="8" />
+                  <Button layoutX="69.0" layoutY="10.0" minHeight="44.0" minWidth="57.0" mnemonicParsing="false" text="9" />
+                  <Button fx:id="subtract" layoutX="128.0" layoutY="10.0" minHeight="44.0" minWidth="57.0" mnemonicParsing="false" text="X" />
+               </children>
+            </HBox>
+         <HBox maxHeight="82.0" minHeight="45.0" prefHeight="46.0" prefWidth="235.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Button fx:id="zero" minHeight="44.0" minWidth="57.0" mnemonicParsing="false" text="0" />
+                  <Button fx:id="decimal" layoutX="10.0" layoutY="10.0" minHeight="44.0" minWidth="57.0" mnemonicParsing="false" text="." />
+                  <Button fx:id="clear" layoutX="10.0" layoutY="10.0" minHeight="44.0" minWidth="57.0" mnemonicParsing="false" text="C" />
+                  <Button fx:id="equals" layoutX="128.0" layoutY="10.0" minHeight="44.0" minWidth="57.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="57.0" text="/" />
+               </children>
+            </HBox>
+            <HBox alignment="TOP_RIGHT" prefHeight="100.0" prefWidth="228.0">
+               <children>
+                  <Button minWidth="57.0" mnemonicParsing="false" prefHeight="94.0" prefWidth="57.0" text="=" />
+               </children>
+            </HBox>
+        </children>
+     </VBox> 
+   </center>
+</BorderPane>
